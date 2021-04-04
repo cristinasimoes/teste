@@ -5,45 +5,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Fonts -->
-
-    <!-- <link href="media/knockout.woff" type="font/woff" crossorigin="anonymous">
+  <!-- <link rel="preload" as="font" href="media/knockout.woff" type="font/woff" crossorigin="anonymous">
+  <link rel="preload" as="font" href="media/MoongladeFont2.woff" type="font/woff" crossorigin="anonymous"> -->
+    <link href="media/knockout.woff" type="font/woff" crossorigin="anonymous">
   <link href="media/MoongladeFont2.woff" type="font/woff" crossorigin="anonymous">
-   -->
-   <link rel="preload" as="font" href="media/knockout.woff" type="font/woff" crossorigin="anonymous">
-<link rel="preload" as="font" href="media/MoongladeFont2.woff" type="font/woff" crossorigin="anonymous">
-
+  
   <!-- CSS -->
   <link rel="stylesheet"  href="style.css" >
-  
-  <title>Cristina Simoes1</title>
+  <title>Cristina Simoes</title>
 </head>
 <body>
   <!-- background video -->
   <video class="bg-video-back" id="bgVideoBack" poster="media/video-poster-back.jpg" preload="metadata" muted="true" playsinline autoplay>
-    <!-- <source src="media/bg-video-back.webm" type="video/webm"> -->
     <source src="media/bg-video-back.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <video class="bg-video-front" id="bgVideoFront" poster="media/video-poster-front.jpg" preload="metadata" muted="true" playsinline autoplay>
-    <!-- <source src="media/bg-video-front.webm" type="video/webm"> -->
     <source src="media/bg-video-front.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-
-
-    <!-- <video class="video-back" id="videoBack" loop="" playsinline="" muted autoplay>
-    <source src="media/backgroundBack.WebM" type="video/WebM">
-    <source src="media/backgroundBack.mp4" type="video/mp4" />
-    <source src="media/backgroundBack.ogv" type="video/ogv" />
-    Your browser does not support the video tag.
-  </video>
-
-  <video class="video-front" id="videoFront" loop="" playsinline="" muted autoplay>
-    <source src="media/backgroundFront.WebM" type="video/WebM">
-    <source src="media/backgroundFront.mp4" type="video/mp4" />
-    <source src="media/backgroundFront.ogv" type="video/ogv" />
-    Your browser does not support the video tag.
-  </video> -->
   <!-- main container -->
   <div class="main-container">
     <!-- navigation bar -->
@@ -76,7 +56,7 @@
           <a id="aboutNav" href="#aboutSection" >about</a>
         </li>
         <li>
-          <a id="scrollNav" href="#aboutSection">scroll down</a>
+          <a id="scrollNav" href="#">scroll down</a>
         </li>
       </ul>
     </nav>
@@ -90,7 +70,7 @@
             <a class="second-line"  >development</a>
           </header>
           <figure>
-            <img class="portrait" id="skewer" src="media/portrait.webp" alt="portrait" width="450px" height="360px" >
+            <img class="portrait" id="skewer" src="media/portrait.jpg" alt="portrait" width="450px" height="360px" >
           </figure>
         </article>
       </section>
@@ -131,14 +111,14 @@
             <div class="box-text">
               <p>This website allows you to listen Flora Hibberd songs while reading her Amazing lyrics on the sidebar. The illustrations were drawn by herself and here they are interactive. Click on them and check out her great work.</p>
             </div>
-            <div class="project-links">
-              <a href="https://cristinasimoes.github.io/floraHibberd/" class="bold source" target="_blank"rel="noopener noreferrer" >See Live</a>
-              <a href="https://github.com/cristinasimoes/floraHibberd" class="bold source2"target="_blank"rel="noopener noreferrer">Source Code</a>
+            <div>
+              <a href="https://cristinasimoes.github.io/floraHibberd/" class="bold" target="_blank"rel="noopener noreferrer" >See Live</a>
+              <a href="https://github.com/cristinasimoes/floraHibberd" class="bold"target="_blank"rel="noopener noreferrer">Source Code</a>
             </div>
           </div>
           <figure class="menu1">
             <a href="https://cristinasimoes.github.io/floraHibberd/" target="_blank"rel="noopener noreferrer" >
-            <img class="circle1" id="skewer" src="media/flora.webp" width="600px" height="400px" alt="">
+            <img class="circle1" id="skewer" src="media/flora.png" width="600px" height="400px" alt="">
           </a>
           </figure>
         </article>
@@ -161,14 +141,14 @@
             <div class="box-text">
               <p>Visual Studios is a creative agency specializing in multimedia production. This website has the structure of a One Page Startup Website. It's easy to navigate and fully responsive for mobile and tablet</p>
             </div>
-            <div class="project-links">
-              <a href="https://cristinasimoes.github.io/visualstudios/" target="_blank"rel="noopener noreferrer" class="bold source3 ">See Live</a>
-              <a href="https://github.com/cristinasimoes/visualstudios" target="_blank"rel="noopener noreferrer" class="bold source4 ">Source Code</a>
+            <div>
+              <a href="https://cristinasimoes.github.io/visualstudios/" target="_blank"rel="noopener noreferrer" class="bold">See Live</a>
+              <a href="https://github.com/cristinasimoes/visualstudios" target="_blank"rel="noopener noreferrer" class="bold ">Source Code</a>
             </div>
           </div>
           <figure class="menu2">
             <a href="https://cristinasimoes.github.io/visualstudios/" target="_blank"rel="noopener noreferrer">
-            <img class="circle2" id="skewer"src="media/visual.webp" width="600px" height="400px" alt="">
+            <img class="circle2" id="skewer"src="media/visual.png" width="600px" height="400px" alt="">
             </a>
           </figure>
         </article>
@@ -191,9 +171,9 @@
             <div class="box-text">
               <p>Book Archive is an aplication that functions as a book library. It was created to keep track of books from an Arquitecture Atelier. The data is saved on the browser local storage and the background colors can be changed and saved.</p>
             </div>
-            <div class="project-links">
-              <a href="https://cristinasimoes.github.io/bookarchive/" target="_blank"rel="noopener noreferrer" class="bold source5">See Live</a>
-              <a href="https://github.com/cristinasimoes/bookarchive" target="_blank"rel="noopener noreferrer" class="bold source6">Source Code</a>
+            <div>
+              <a href="https://cristinasimoes.github.io/bookarchive/" target="_blank"rel="noopener noreferrer" class="bold">See Live</a>
+              <a href="https://github.com/cristinasimoes/bookarchive" target="_blank"rel="noopener noreferrer" class="bold">Source Code</a>
             </div>
           </div>
           <!-- <figure>
@@ -201,7 +181,7 @@
           </figure> -->
             <figure class="menu3">
               <a href="https://cristinasimoes.github.io/bookarchive/" target="_blank"rel="noopener noreferrer">
-                <img class="circle3" id="skewer" src="media/book.webp" alt="" width="600px" height="400px">
+                <img class="circle3" id="skewer" src="media/book.png" alt="" width="600px" height="400px">
               </a>
             </figure>
         </article>
@@ -241,17 +221,17 @@
             <div class="mail">
               <p class="bold">EMAIL</p>
               <div onclick="copyElementText('.emailtag')" class="bubble" id="clipboard">
-                <a  class="emailtag source1" href="#">cristinapinto.simoes@gmail.com</a>
-                <a href="#" class="iconCopy"><i  class="fas fa-copy"></i></a>
-                <a class="copyto">copy</a>
+                <a  class="emailtag" href="#">cristinapinto.simoes@gmail.com</a>
+                <!-- <a href="#" class="iconCopy"><i  class="fas fa-copy"></i></a>
+                <a class="copyto">copy</a> -->
               </div>
             </div>
             <div class="phone">
               <p class="bold">PHONE</p>
               <div onclick="copyElementText('.phonetag')" class="bubble" id="clipboard2">
-                <a href="#" class="phonetag number-font source1">00351916671142</a>
-                <a href="#" class="iconCopy2"><i  class="fas fa-copy"></i></a>
-                <a class="copyto2">copy</a>
+                <a href="#" class="number-font">(00351)916671142</a>
+                <!-- <a href="#" class="iconCopy2"><i  class="fas fa-copy"></i></a>
+                <a class="copyto2">copy</a> -->
               </div>
             </div>
             <div class="adress">
@@ -270,18 +250,16 @@
     </div>
   </div>
 <!-- animation project photos -->
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
    <!-- FONT AWESOME ICONS -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" defer></script>
+   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
    <!-- JQUERY CDN - INTERACTIVE CURSOR -->
-   <script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" defer></script>
+   <script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
    <!-- GSAP -->
-   <script  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" ></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js" ></script>
+   <script  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
    <script src="app.js"></script>
 </body>
 </html>
